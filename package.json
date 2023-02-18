@@ -1,0 +1,30 @@
+{
+  "name": "cli-application-contacts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maryna-Korbet/cli-application-contacts.git"
+  },
+  "keywords": [],
+  "author": "Maryna-Korbet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maryna-Korbet/cli-application-contacts/issues"
+  },
+  "homepage": "https://github.com/Maryna-Korbet/cli-application-contacts#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^10.0.0",
+    "nanoid": "3.3.4"
+  }
+}
