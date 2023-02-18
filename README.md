@@ -11,3 +11,6 @@ node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-2
 
 4) Deleting a contact by id:
 node index.js --action remove --id=3
+
+Link to file hosting with screenshots of command execution results:
+https://monosnap.com/list/63f06b120eb4e08463aa127e
