@@ -26,7 +26,7 @@ async function invokeAction({ action, id, name, email, phone }) {
     case "list":
       console.log('Array of all contacts:'.bgGreen);
       const allContacts = await listContacts();
-      return console.log(allContacts);
+      return console.table(allContacts);
 
     case "get":
       console.log('Contact found:'.bgBlue);
@@ -34,12 +34,12 @@ async function invokeAction({ action, id, name, email, phone }) {
       return console.log(oneContact);
 
     case "add":
-      console.log('A contact has been added:'.bgWhite);
+      console.log('A contact has been added:'.bgYellow);
       const newContact = await addContact({name, email, phone});
       return console.log(newContact);
 
     case "remove":
-      console.log('Contact has been deleted:'.bgYellow);
+      console.log('Contact has been deleted:'.bgMagenta);
       const deleteContact = await removeContact(id);
       return console.log(deleteContact);
 
